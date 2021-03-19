@@ -1,0 +1,79 @@
+body {
+  background-color: lightgray;
+  color: #555555;
+  font: normal 20px helvetica;
+  line-height: 1.6em;
+  margin: 0%;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: blue;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.box-1 {
+  background-color: lightgray;
+  color: black;
+  border: 5px solid blue;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0;
+}
+.box-1 h1 {
+  font-family:broadway;
+  font-weight: 400px;
+  font-style: normal;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0em;
+  word-spacing: 0.1em;
+  text-align: center;
+}
+.categories {
+  background-color: lightgray;
+  border: 3px blue solid;
+  border-radius: 20px;
+  padding: 10px;
+}
+.categories h2 {
+  text-align: center;
+  text-decoration: underline;
+  color: #000;
+}
+.categories ul {
+  padding: 0;
+  list-style: square;
+  list-style: none;
+}
+footer {
+  background-color: lightgray;
+  border: 3px solid blue;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #000;
+  letter-spacing: 0em;
+  word-spacing: 0.1em;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  body {
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .center-title {
+    width: 600px;
+  }
+}
